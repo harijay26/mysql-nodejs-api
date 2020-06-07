@@ -1,12 +1,5 @@
 
 //Configuration
-/* module.exports = {
-    HOST: "localhost",
-    USER: "root",
-    PASSWORD: "12345",
-    DB: "webooks"
-}; */
-
 module.exports = {
     HOST: "us-cdbr-east-05.cleardb.net",
     USER: "bec1f5770c0621",

@@ -12,7 +12,7 @@ const Author = author => {
 
 
 Author.getAll = result => {
-    sql.query("SELECT * FROM Author", (err, res) => {
+    sql.query("SELECT * FROM authors", (err, res) => {
       if (err) {
         console.log("error: ", err);
         result(null, err);

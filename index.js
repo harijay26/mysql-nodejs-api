@@ -23,6 +23,7 @@ require("./app/routes/bookRoutes")(app);
 require("./app/routes/authorRoutes")(app);
 
 // Set Port, listen to requests
-app.listen(5001, () => {
-    console.log('Server Started running on port 3000');
+const PORT = process.env.PORT || 5001;
+app.listen(PORT, () => {
+    console.log(`Server Started running on port ${PORT}`);
 });

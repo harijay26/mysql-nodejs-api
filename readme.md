@@ -12,7 +12,7 @@ Retrieve muiltiple customers: https://webooks-mysqlapi.herokuapp.com/customers
 
 Retrieve muiltiple Authors: https://webooks-mysqlapi.herokuapp.com/authors
 
-Retrieve muiltiple Books:
+Retrieve muiltiple Books: https://webooks-mysqlapi.herokuapp.com/books
 
 Retrieve muiltiple Orders: https://webooks-mysqlapi.herokuapp.com/orders
 
@@ -25,6 +25,6 @@ Retrieve Single customers: https://webooks-mysqlapi.herokuapp.com/customers/11
 
 Retrieve Single Authors: https://webooks-mysqlapi.herokuapp.com/authors/31
 
-Retrieve Single Books:
+Retrieve Single Books: https://webooks-mysqlapi.herokuapp.com/books/11
 
 Retrieve Single Orders: https://webooks-mysqlapi.herokuapp.com/orders/21

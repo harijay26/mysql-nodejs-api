@@ -14,7 +14,7 @@ const Customer = customer => {
 };
 
 Customer.getAll = result => {
-    sql.query("SELECT * FROM Customer", (err, res) => {
+    sql.query("SELECT * FROM Customers", (err, res) => {
       if (err) {
         console.log("error: ", err);
         result(null, err);
@@ -27,7 +27,7 @@ Customer.getAll = result => {
 
 
 Customer.findById = (customerId, result) => {
-    sql.query(`SELECT * FROM Customer WHERE id = ${customerId}`, (err, res) => {
+    sql.query(`SELECT * FROM Customers WHERE id = ${customerId}`, (err, res) => {
       if (err) {
         console.log("error: ", err);
         result(err, null);

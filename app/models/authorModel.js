@@ -25,7 +25,7 @@ Author.getAll = result => {
 
 
 Author.findById = (authorId, result) => {
-    sql.query(`SELECT * FROM author WHERE id = ${authorId}`, (err, res) => {
+    sql.query(`SELECT * FROM authors WHERE id = ${authorId}`, (err, res) => {
       if (err) {
         console.log("error: ", err);
         result(err, null);

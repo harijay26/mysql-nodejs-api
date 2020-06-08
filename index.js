@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Simple route
 app.get("/", (req, res) => {
-    res.json({ message: "Welcome to Harry application..." });
+    res.json({ message: "Welcome to Harry Mysql application..." });
 });
 
 // Routes
